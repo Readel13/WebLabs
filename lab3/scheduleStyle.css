@@ -1,0 +1,25 @@
+.first_week, .second_week{
+    width: 550px;
+    height: 300px;
+    border: 2px solid black;
+    text-align: center;
+    background: whitesmoke;
+    border-collapse: collapse;
+}
+.first_week td, .first_week th, .second_week td, .second_week th{
+    border: 2px solid black;
+}
+
+.first_week td:first-child{
+    background: rgb(176, 176, 233);
+}
+.fw_header{
+    background: yellow;
+}
+
+.sw_header{
+    background: yellow;
+}
+.second_week td:first-child{
+    background: rgb(176, 176, 233);
+}
