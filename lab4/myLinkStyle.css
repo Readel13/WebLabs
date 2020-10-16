@@ -1,0 +1,40 @@
+.MyLinks a{
+    color: blue;
+}
+
+.link1:visited{
+    text-decoration: none;
+    color: blue;
+ }
+
+.link1:hover{
+   color:yellow;
+}
+ .link1:link{
+    text-decoration: underline;
+    color: green;
+ }
+
+ .link1:active{
+    text-decoration: underline;
+    color: tomato;
+ }
+
+.link2{
+     text-decoration: none;
+ }
+.link3{
+    text-decoration: underline;
+}
+ .link3:hover{
+     text-decoration: none;
+ }
+
+ .link4{
+    color: #2AABBA;
+    font-style: italic;
+    padding-left: 35px;
+    background: url(https://html5book.ru/wp-content/uploads/2019/04/pdf-icon.png) no-repeat left;
+    text-decoration: underline;
+ }
+
