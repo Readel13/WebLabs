@@ -1,0 +1,63 @@
+.header{
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+ hr{
+    border-top: 2px solid black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+fieldset{
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px #cccccc;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+textarea{
+    resize: none;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 2px;
+    width: 250px;
+}
+h2{
+    font-weight: normal;
+}
+
+.q11 input, .q12 input{
+    margin-top: 5px;
+}
+
+.q12 input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.q12 input[type="password"], .q12 input[type="email"]:invalid{
+    border: 3px solid red;
+}
+
+
+.q12 input[type="password"], .q12 input[type="email"]:valid{
+    border: 3px solid green;
+}
+
+button:hover{
+    width: 100px;
+}
+
+button:focus{
+    background-color: indigo;
+}
+
+button:active{
+    border-radius: 15px;
+}

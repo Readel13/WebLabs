@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 4</title>
+    <link rel="stylesheet" href="form4.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="head">
+        <img src="pic.png" alt="Error"  width="154" height="120"/>
+        <h3>ВАС ЗАПРОШУВАЛИ?</h3>
+        <p>ПІДТВЕРДЖУЙТЕ</p>
+      </div>
+      <div class="forms">
+            <label for="name">Ваше імя: </label>
+            <input type="text" id="name" pattern="(?=.*?[a-z])">
+            <label for="select_num_g">Гостей</label>
+            <select name="aaa" id="select_num_g">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="select2">Я запрошений: </label>
+            <select name="invitation" id="select2">
+                <option name="invitation" value="1">на всі заходи</option>
+                <option name="invitation" value="2">на церемонію</option>
+                <option name="invitation" value="3">на вечірку</option>
+            </select>
+            
+            <button type="submit">Я ПІДТВЕРДЖУЮ</button>
+      </div>
+    </div>
+  </body>
+</html>

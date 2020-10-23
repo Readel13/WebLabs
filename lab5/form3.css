@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+  }
+.box * {
+    position: relative;
+}
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: url(https://img.freepik.com/free-photo/3d-abstract-background-with-network-connections-low-poly-plexus-design_1048-11867.jpg?size=626&ext=jpg);
+    background-size: cover;
+}
+.box::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    filter: blur(2px);
+}
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: rgba(255, 255, 255, 0.1);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    color: black;
+    background: rgba(255, 255, 255);
+}
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #307ee4;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover {
+    background: #307ee4;
+}
+
+.box label{
+    color: white;
+}

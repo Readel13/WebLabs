@@ -1,0 +1,77 @@
+.content {
+  width: 400px;
+  height: 570px;
+  background-color: whitesmoke;
+  margin-left: 500px;
+  border: 5px solid rgb(181, 224, 231);
+}
+
+.head {
+  position: relative;
+  height: 150px;
+  padding-top: 75px;
+  padding-left: 100px;
+}
+.head h1 {
+  z-index: 5;
+  position: absolute;
+  top: 90px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: blue;
+}
+.triangle {
+  z-index: 3;
+  position: absolute;
+  bottom: 50px;
+  left: 180px;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 120px solid rgb(255, 220, 225);
+}
+.round {
+  z-index: 1;
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin-left: 12px;
+  background: rgb(223, 197, 223);
+  border-radius: 50%;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.body input[type="email"],
+.body input[type="password"] {
+  margin-top: 40px;
+  padding-left: 5px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid rgb(27, 69, 209);
+}
+.body input:focus {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+.body button {
+  outline: none;
+  margin-top: 60px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  background-color: rgb(98, 98, 236);
+  color: white;
+  font-size: larger;
+}

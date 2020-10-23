@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 300px;
+    height: 570px;
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #fff2e4;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    padding-bottom: 15px ;
+    font-weight: lighter;
+    font-size: medium;
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+}
+.head h3{
+    font-weight: normal;
+}
+.head p{
+    font-size: large;
+    margin-bottom: 18px;
+    margin-top: -18px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    margin-top: 1px;
+    border-top: 2px solid lightgray;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    background-color: rgb(255, 248, 242);
+    font-family: cursive;
+    color: rgb(168, 163, 163);
+}
+
+.forms input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    width: 200px;
+    height: 25px;
+    border: 1px solid grey;
+    background-color: rgb(218, 223, 230);
+}
+.forms select[name="aaa"]{
+    margin-top: 10px;
+    height: 35px;
+    width: 40px;
+}
+
+.forms label[for="select2"]{
+    margin-top: 10px;
+}
+.forms select[name="invitation"]{
+    margin-top: 10px;
+    width: 130px;
+    height: 35px;
+}
+
+button{
+    margin-top: 30px;
+    width: 220px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(223, 59, 72);
+    border-radius: 15px;
+}

@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 600px;
+    height: 820px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgba(215, 216, 201, 0.678);
+}
+.myForm1{
+    width: 500px;
+    height: 680px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 3px solid grey;  
+}
+.gradient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: repeating-linear-gradient(-45deg, rgba(215, 216, 201, 0.678), rgba(215, 216, 201, 0.678) 10px, grey 3px, grey 15px);
+    border-bottom: 3px solid grey;
+}
+.round{
+    height: 22px;
+    width: 22px;
+    border: rgb(94, 70, 70) 15px solid;
+    border-radius: 50%;
+    background: white;
+}
+.headerForm{
+    height: 85px;
+    border-bottom: 3px solid grey;  
+}
+
+.headerForm input[type="text"]{
+    height: 35px;
+    border: none;
+    background-color: rgba(215, 216, 201, 0.678);
+    opacity: 0.2;
+}
+
+.headerForm input[type="text"]:focus, .headerForm input[type="text"]:hover{
+    opacity: 0.9;
+    border:none;
+    outline: none;
+    background-color: rgb(231, 249, 255);
+}
+label, textarea{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+textarea{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: black;
+    resize: none;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.headerForm input{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 470px;
+}
+.contentForm{
+    height: 350px;
+    border-bottom: 3px solid grey;  
+}
+
+.inputs{
+    height: 50px;
+    background-color: rgb(111, 112, 112);
+    border-bottom: 3px solid grey ;
+}
+.inputs_button{
+    height: 50px;
+    background-color: rgb(111, 112, 112);
+}
+
+.inputs input{
+    display: flex;
+    outline: none;
+    height: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    padding-left: 5px;
+    width: 433px;
+    border: none;
+    background-color: rgba(215, 216, 201, 0.678);
+}
+.inputs_button button{
+    display: flex;
+    border: none;
+    outline: none;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    padding-left: 175px;
+    padding-top: 15px;
+    width: 440px;
+    background-color: rgba(215, 216, 201, 0.678);
+    text-align: center;
+}
+
+label{
+    margin-left: 8px;
+}

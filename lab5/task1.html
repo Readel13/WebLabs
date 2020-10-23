@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабараторна робота №5</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+<div class="header">
+    <h1>Використання мобільних пристроїв</h1>
+    <h2>Витратьте, будь ласка, кілька хвилин свого часу на заповнення цієї анкети.</h2>
+</div>
+<hr>
+<div class="content">
+    <fieldset class="q1_device"><h2>Яким з наступних мобільних пристроїв Ви володієте?</h2>
+        <input type="checkbox" name="q1_device" id="phone_q1"> <label for="phone_q1">Мобільний телефон</label><br>
+        <input type="checkbox" name="q1_device" id="notebook_q1"> <label for="notebook_q1">Ноутбук/Нетбук</label> <br>
+        <input type="checkbox" name="q1_device" id="pda_q1"> <label for="pda_q1">ПДА</label> <br>
+        <input type="checkbox" name="q1_device" id="tablet_q1"> <label for="tablet_q1">Планшет</label> <br>
+        <input type="checkbox" name="q1_device" id="elec_book_q1"> <label for="elec_book_q1">Електронні книги</label><br>
+        <input type="checkbox" name="q1_device" id="mp3_player_q1"> <label for="mp3_player_q1">MP3-плеєр </label><br>
+        <input type="checkbox" name="q1_device" id="other_q1"> <label for="other_q1">Інше</label><br>
+        <input type="textarea" name="q1_device" id="other" placeholder="Інше">
+    </fieldset>
+
+    <fieldset class="q2_internet"><h2>Для підключення до Інтернету Ви користуєтесь</h2>
+        <input type="checkbox" name="q2_internet" id="phone_q2"> <label for="phone_q2">Мобільним телефоном</label> <br>
+        <input type="checkbox" name="q2_internet" id="notebook_q2"> <label for="notebook_q2">Ноутбуком</label> <br>
+        <input type="checkbox" name="q2_internet" id="pda_q2"> <label for="pda_q2">ПДА</label> <br>
+        <input type="checkbox" name="q2_internet" id="tablet_q2"> <label for="tablet_q2">Планшетом</label><br>
+        <input type="checkbox" name="q2_internet" id="elec_book_q2"> <label for="elec_book_q2">Електронною книгою</label><br>
+        <input type="checkbox" name="q2_internet" id="computer_q2"> <label for="computer_q2">Комп'ютером</label><br>
+        <input type="checkbox" name="q2_internet" id="other_q2"> <label for="other_q2">Інше</label><br>
+        <input type="textarea" name="q2_internet" id="other_q2" maxlength="20" spellcheck="false" placeholder="Інше">
+    </fieldset>
+
+    <fieldset class="q3_conversation"><h2>Для спілкування найчастіше Ви користуєтеся</h2>
+        <input type="radio" name="q3_conversation" id="phone_q3"> <label for="phone_q3">Мобільним телефоном</label> <br>
+        <input type="radio" name="q3_conversation" id="notebook_q3"> <label for="notebook_q3">Ноутбуком</label> <br>
+        <input type="radio" name="q3_conversation" id="tablet_q3"> <label for="tablet_q3">Планшетом</label><br>
+        <input type="radio" name="q3_conversation" id="other_q3"> <label for="other_q3">Інше</label><br>
+        <input type="textarea" name="q3_conversation" id="other_q3" maxlength="20" placeholder="Інше">
+    </fieldset>
+
+    <fieldset class="q4_phone_brand"><h2>Яким виробникам мобільних пристроїв Ви надаєте перевагу?</h2>
+        <input type="textarea" name="q4_phone_brand" id="q4_brand" maxlength="50" placeholder="Виробник">
+    </fieldset>
+
+    <fieldset class="q5_price_phone"><h2>Скільки коштує Ваш мобільний пристрій?</h2>
+        <input type="radio" name="q5_price_phone" id="cheap_q5"> <label for="cheap_q5">0 - 5 000 грн</label> <meter id="cheap_q5" value="5000" min="0" max="25000"></meter><br>
+        <input type="radio" name="q5_price_phone" id="medium_q5"> <label for="medium_q5">5 001 - 8 500 грн</label> <meter id="medium_q5" value="8500" min="0" max="25000"></meter><br>
+        <input type="radio" name="q5_price_phone" id="subflag_q5"> <label for="subflag_q5">8 501 - 15 000 грн</label> <meter id="subflag_q5" value="15000" min="0" max="25000"></meter><br>
+        <input type="radio" name="q5_price_phone" id="flag_q5"> <label for="flag_q5">Більше 15 000 грн</label> <meter id="flag_q5" value="25000" min="0" max="25000"></meter><br>
+    </fieldset>
+
+    <fieldset class="q6_phone_use_time"><h2>Скільки годин на день Ви користуєтеся своїми мобільними пристроями?</h2>
+        <input type="radio" name="q6_phone_use_time" id="long_q6"> <label for="long_q6">8+</label> <meter id="cheap_q5" value="8" min="0" max="12"></meter><br>
+        <input type="radio" name="q6_phone_use_time" id="medium_q6"> <label for="medium_q6">5-8</label> <meter id="medium_q5" value="5" min="0" max="12"></meter><br>
+        <input type="radio" name="q6_phone_use_time" id="little_q6"> <label for="little_q6">1-2</label> <meter id="subflag_q5" value="2" min="0" max="12"></meter><br>
+        <input type="radio" name="q6_phone_use_time" id="vlittle_q6"> <label for="vlittle_q6">Менше години</label> <meter id="flag_q5" value="0.7" min="0" max="12"></meter><br>
+    </fieldset>
+
+    <fieldset class="q7_battery_capacity"><h2>Вам підходить ємність батареї Вашого мобільного пристрою?</h2>
+        <input type="radio" name="q7_battery_capacity" id="yes_q7"> <label for="yes_q7">Так</label> <br>
+        <input type="radio" name="q7_battery_capacity" id="no_q7"> <label for="no_q7">Ні</label> <br>
+    </fieldset>
+
+    <fieldset class="q8_device_use"><h2>З якою метою Ви найчастіше користуєтеся своїми мобільними пристроями?</h2>
+        <input type="checkbox" name="q8_device_use" id="internet_q8"> <label for="internet_q8">Доступ до Інтернету</label> <br>
+        <input type="checkbox" name="q8_device_use" id="gps_q8"> <label for="gps_q8">GPS навігація</label> <br>
+        <input type="checkbox" name="q8_device_use" id="communication_q8"> <label for="communication_q8">Комунікация</label> <br>
+        <input type="checkbox" name="q8_device_use" id="games_q8"> <label for="games_q8">Ігри</label><br>
+        <input type="checkbox" name="q8_device_use" id="music_q8"> <label for="music_q8">Музика, перегляд фільмів</label><br>
+        <input type="checkbox" name="q8_device_use" id="other_q8"> <label for="other_q8">Інше</label><br>
+        <input type="textarea" name="q8_device_use" id="other_q8" maxlength="50" spellcheck="false" placeholder="Інше">
+    </fieldset>
+
+    <fieldset class="q9_gender"><h2>Вкажіть Ваш гендер:</h2>
+        <input type="radio" name="q9_gender" id="male_q9"> <label for="male_q9">Чоловік</label> <br>
+        <input type="radio" name="q9_gender" id="female_q9"> <label for="female_q9">Жінка</label> <br>
+    </fieldset>
+
+    <fieldset class="q10_age"><h2>Скільки вам років?</h2>
+        <input type="radio" name="q10_age" id="1_q10"> <label for="1_q10">15 або меньше</label> <br>
+        <input type="radio" name="q10_age" id="2_q10"> <label for="2_q10">16-25</label> <br>
+        <input type="radio" name="q10_age" id="3_q10"> <label for="3_q10">26-44</label> <br>
+        <input type="radio" name="q10_age" id="4_q10"> <label for="4_q10">45-60</label><br>
+        <input type="radio" name="q10_age" id="5_q10"> <label for="5_q10">60+</label><br>
+    </fieldset>
+
+
+    <fieldset class="q11">
+        <legend>Приклад тегу Legend</legend>
+        <label for="range">Туда сюда</label>  <input type="range" name="q11" id="range"> <br>
+        <label for="month">Вибір місяцу</label>  <input type="month" name="q11" id="month"> <br>
+        <label for="week">Вибір тижню</label>  <input type="week" name="q11" id="week"> <br>
+        <label for="time"> Вибір часу</label>  <input type="time" name="q11" id="time"> <br>
+        <label for="date"> Вибір дати</label>  <input type="date" name="q11" id="date"> <br>
+        <label for="number_q11">Введіть число</label>  <input type="number" name="q11" id="number_q11" placeholder="Число"> <br>
+        <label for="datetime"> Вибір дати-час на визначеному проміжку</label> 
+        <input type="datetime-local" name="q12" id="datetime" min="2020-06-07T00:00" max="2020-06-14T00:00"> <br>
+        <label for="datalist">Datalist:</label>  <input list="datalist">
+            <datalist id="datalist">
+                <option value="Вибір 1"></option>
+                <option value="Вибір 2"></option>
+                <option value="Вибір 3"></option>
+            </datalist><br> 
+        <label for="phone_q11">Номер телефону:</label>   <input type="tel" id="phone_q11" name="q11" placeholder="мобільний телефон" pattern="[0-9]{10,}"><br><br>
+        <label for="gsearch_q11">Search Google:</label><input type="search" id="gsearch_q11" name="q11">  <input type="submit">
+    </fieldset>
+
+    <fieldset class="q12"><h2>Контактна інформація</h2>
+        <form action="">
+        <label for="name_q12">Ваше імя</label>  <input type="text" name="q12" id="name_q12" placeholder="Імя" required> <br>
+        <label for="lastname_q12">Ваше прізвище</label>  <input type="text" name="q12" id="lastname_q12" placeholder="Прізвище" required> <br>
+        <label for="email_q12">Email</label>  <input type="email" name="email_q12" id="lastname_q12" placeholder="Email" pattern="(?=.*?[a-z])(?=.*?[#?!@$%^&*-])" autocomplete="off" required> <br>
+        <label for="password_q12">Пароль</label>  <input type="password" name="q12" id="password_q12" placeholder="Пароль"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$" required> <br>
+        <button type="submit">Submit</button> <button type="reset">Reset</button> 
+        </form>
+    </fieldset>
+
+    <fieldset class="q13"><h2>Ваше віросповідання:</h2>
+        <input type="radio" name="q13" id="1_q13"> <label for="1_q13">Християнство</label> <br>
+        <input type="radio" name="q13" id="2_q13"> <label for="2_q13">Іслам</label> <br>
+        <input type="radio" name="q13" id="3_q13"> <label for="3_q13">Юдаїзм</label> <br>
+        <input type="radio" name="q13" id="4_q13"> <label for="4_q13">Маніхейство</label><br>
+        <input type="radio" name="q13" id="5_q13"> <label for="5_q13">Інше</label><br>
+    </fieldset>
+
+    <fieldset class="q14"><h2>Наступним вашим девайсом буде: </h2>
+        <input type="radio" name="q14" id="phone_q14"> <label for="phone_q14">Мобільний телефон</label><br>
+        <input type="radio" name="q14" id="notebook_q14"> <label for="notebook_q14">Ноутбук/Нетбук</label> <br>
+        <input type="radio" name="q14" id="pda_q14"> <label for="pda_q14">ПДА</label> <br>
+        <input type="radio" name="q14" id="tablet_q14"> <label for="tablet_q14">Планшет</label> <br>
+        <input type="radio" name="q14" id="elec_book_q14"> <label for="elec_book_q14">Електронні книги</label><br>
+        <input type="radio" name="q14" id="mp3_player_q14"> <label for="mp3_player_q14">MP3-плеєр </label><br>
+        <input type="radio" name="q14" id="other_q14"> <label for="other_q14">Інше</label><br>
+        <input type="textarea" name="q14" id="other" placeholder="Інше">
+    </fieldset>
+
+    <fieldset class="q15"><h2>Які бренди асоціюються у вас з надійністю: </h2>
+        <input type="checkbox" name="q15" id="apple_q15"> <label for="apple_q15">Apple</label><br>
+        <input type="checkbox" name="q15" id="nokia_q15"> <label for="nokia_q15">Nokia</label> <br>
+        <input type="checkbox" name="q15" id="samsung_q15"> <label for="samsung_q15">Samsung</label> <br>
+        <input type="checkbox" name="q15" id="simens_q15"> <label for="simens_q15">Simens</label> <br>
+        <input type="checkbox" name="q15" id="xiaomi_q15"> <label for="xiaomi_q15">Xiaomi</label><br>
+        <input type="checkbox" name="q15" id="lg_q15"> <label for="lg_q15">LG</label><br>
+        <input type="checkbox" name="q15" id="other_q15"> <label for="other_q15">Свій варіант</label><br>
+        <input type="textarea" name="q15" id="other" placeholder="вкажіть свій варіант">
+    </fieldset>
+
+</div>
+</body>
+</html>
