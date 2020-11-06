@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio & Video</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>1. Відео з YouTube</h2><br>
+    <iframe width="600" height="400"
+        src="https://www.youtube.com/embed/A6g0mPo-uJM">
+    </iframe>
+
+    <h2>2. Відео з YouTube без елементів керування</h2><br>
+    <iframe width="600" height="400"
+        src="https://www.youtube.com/embed/fSfsWFUmaX8?controls=0">
+    </iframe>
+
+    <h2>3. Просто відео з плеєром</h2><br>
+    <video width="600" height="400" controls>
+        <source src="./video/video1.mp4" type="video/mp4">
+    </video>
+
+    <h2>4. Аудіо 1</h2><br>
+    <audio controls>
+        <source src="./audio/fuel.mp3" type="">
+    </audio>
+
+    <h2>5. Аудіо 2</h2><br>
+    <audio controls>
+        <source src="./audio/aeroplane.mp3" type="">
+    </audio>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body{
+   margin-left: 400px; 
+}
+.today_weather{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.today_weather h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    color: rgb(70, 70, 67);
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-left: -10px;
+}
+
+.today_weather h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(70, 70, 67);
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.today_weather_inf{
+    width: 700px;
+    height: 180px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    border-bottom: darkgray solid 2px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.today_weather_inf h1{
+    font-size: 40px;
+    color: rgb(70, 70, 67);
+    font-weight: normal;
+}
+.num{
+    color: rgb(70, 70, 67);
+}
+.degree{
+    font-weight: normal;
+    font-size: 25px;
+}
+.span{
+    color: rgb(124, 120, 120);
+}
+
+.tomorrow_weather_inf{
+    width: 740px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    border-bottom: darkgray solid 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(124, 120, 120);
+}
+.day{
+    width: 50px;
+}
+.tomorrow_weather_inf span{ 
+    font-size: large;
+    padding-bottom: 10px;
+}
+.degree1{
+    color: rgb(70, 70, 67);
+    margin-bottom: -20px;
+}
+
+
+
