@@ -1,0 +1,51 @@
+.radio input, .check input{
+    display: none;
+}
+
+.radio span{
+    position: relative; /* Относительное позиционирование */
+    display: inline-block; /* Строчно-блочный элемент */
+    width: 20px; height: 20px; /* Размеры */
+    border: 2px solid #F5F5F5;
+    transition: linear 0.3s;
+    border-radius: 50%; /* Круглый переключатель */
+}
+
+.radio input:checked + span{
+    border-color: palevioletred;
+}
+.radio input:checked + span::before{
+    content: " ";
+    position: absolute;
+    left: 2px; top: 2px;
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    background: palevioletred;
+}
+.check span{
+    position: relative; /* Относительное позиционирование */
+    display: inline-block; /* Строчно-блочный элемент */
+    width: 20px; height: 20px; /* Размеры */
+    border: 2px solid lightgray;
+    transition: linear 0.3s;
+    border-radius: 10%; /* Круглый переключатель */
+}
+.check input:checked + span{
+    background-color:blue;
+}
+
+.check input:checked + span::before{
+    content: " ";
+    position: absolute;
+    left: 3px; top: 2px;
+    width: 14px; height: 2px;
+    background: white;
+    transform: rotate(-45deg) translateY(7px) translateX(-2px);
+}
+.check input:checked + span::after{
+    content: " ";
+    position: absolute;
+    width: 14px; height: 2px;
+    background: white;
+    transform: translateX(-2px) translateY(8px) rotate(50deg);
+}
